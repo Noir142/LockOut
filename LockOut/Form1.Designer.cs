@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.LoginB = new System.Windows.Forms.TextBox();
             this.PasswordB = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -44,9 +43,9 @@
             this.LoginB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LoginB.Location = new System.Drawing.Point(12, 46);
+            this.LoginB.Location = new System.Drawing.Point(80, 34);
             this.LoginB.Name = "LoginB";
-            this.LoginB.Size = new System.Drawing.Size(179, 20);
+            this.LoginB.Size = new System.Drawing.Size(224, 20);
             this.LoginB.TabIndex = 0;
             // 
             // PasswordB
@@ -55,19 +54,21 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PasswordB.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.PasswordB.Location = new System.Drawing.Point(12, 86);
+            this.PasswordB.Location = new System.Drawing.Point(80, 60);
             this.PasswordB.Name = "PasswordB";
             this.PasswordB.PasswordChar = '*';
             this.PasswordB.ShortcutsEnabled = false;
-            this.PasswordB.Size = new System.Drawing.Size(179, 20);
+            this.PasswordB.Size = new System.Drawing.Size(224, 20);
             this.PasswordB.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(12, 125);
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Location = new System.Drawing.Point(15, 98);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(179, 35);
+            this.button1.Size = new System.Drawing.Size(289, 34);
             this.button1.TabIndex = 2;
             this.button1.Text = "Войти";
             this.button1.UseVisualStyleBackColor = true;
@@ -90,7 +91,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(12, 28);
+            this.label1.Location = new System.Drawing.Point(12, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 15);
             this.label1.TabIndex = 4;
@@ -100,7 +101,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(12, 69);
+            this.label2.Location = new System.Drawing.Point(12, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 15);
             this.label2.TabIndex = 5;
@@ -109,7 +110,7 @@
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(203, 186);
+            this.ClientSize = new System.Drawing.Size(316, 144);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TimeS);
@@ -117,7 +118,6 @@
             this.Controls.Add(this.PasswordB);
             this.Controls.Add(this.LoginB);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
